@@ -1,0 +1,23 @@
+table name : comapny
+id  name        address     salary
+1	|"t2b"	   |"gurgaon"|	430000
+2	|"tcs"	   |"pune"	 |    15000
+3	|"infosis" |"mumbai" |    20000
+
+⭐ UPDATE query on a table
+
+👉 updating single columns
+command :
+ update company set salary = 10000 where id = 1
+
+👉 updating a multiple column
+command :
+ update company set salary = 10000, address='surat' where id = 1
+
+👉 updating value of all columns at once column (dont write where)
+command :
+ update company set salary = 10000
+ 
+
+
+ 

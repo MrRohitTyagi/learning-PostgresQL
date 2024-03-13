@@ -1,0 +1,26 @@
+
+table name : comapny
+id  name        address     salary
+1	|"t2b"	   |"gurgaon"|	430000
+2	|"tcs"	   |"pune"	 |    15000
+3	|"infosis" |"mumbai" |    20000
+
+⭐ UPDATE query on a table
+
+👉 deleting a record
+command :
+ delete from company where id = 1
+
+👉 updating a multiple column
+command :
+ update company set salary = 10000, address='surat' where id = 1
+
+
+👉 empty the entire table
+command :
+ delete from company 
+
+ 
+
+
+ 

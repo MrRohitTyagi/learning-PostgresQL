@@ -1,0 +1,13 @@
+👉 List all tables in DB
+command:  \d
+-------------------------------------------------------
+
+👉 Create a new table
+command:  create table student (id int , name text , age int , address text);
+-------------------------------------------------------
+
+👉 Drop a table
+command:  drop table student;
+-------------------------------------------------------
+
+

@@ -1,0 +1,36 @@
+table name : comapny
+id  name        address     salary
+1	|"t2b"	   |"gurgaon"|	430000
+2	|"tcs"	   |"pune"	 |    15000
+3	|"infosis" |"mumbai" |    20000
+
+⭐ WHERE query on a table
+
+👉 compairision operators  > ,< >=, <=, = ,!=
+1 select * from company where salary > 15000
+2 select * from company where salary < 15000
+3 select * from company where salary >= 15000
+4 select * from company where salary <= 15000
+5 select * from company where salary = 15000
+5 select * from company where salary = 15000
+
+👉 Logical operators  and , or 
+
+1 select * from company where salary > 15000 and id > 2
+2 select * from company where salary > 15000 or id > 2
+
+👉 Like operator  
+this will give all cols where text matches like .includes()
+ select * from company where name Like 't%' (writing % is necessory)
+
+👉 In operator  
+this will give results that matched the value in ()
+ select * from company where id in (1,3) 
+
+👉 Not In operator  
+this will give results that not matches the value in ()
+ select * from company where id not in (1,3) 
+
+👉 between operator  
+this will give results  between the given range (both range inclusive)
+ select * from company where id between 1 and 3 

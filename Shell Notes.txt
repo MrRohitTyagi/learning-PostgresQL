@@ -1,0 +1,16 @@
+👉 list all databases
+command:  \l
+-------------------------------------------------------
+👉 Create a new DB
+command: create database testdb;
+--------------------------------------------------------
+👉 Delete/Drop a DB
+command: drop database testdb;
+command: drop database test with (force);
+--------------------------------------------------------
+👉 Switch to another DB
+command: \c testdb;
+--------------------------------------------------------
+
+
+

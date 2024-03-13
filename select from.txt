@@ -1,0 +1,12 @@
+⭐ SELECT commands on a table
+🔯 do to inclute "" quotes
+
+👉 Show all data in a table
+command :
+select * from "tableName"
+
+👉 Show fewer data in a table
+command :
+select name,age from "tableName"
+----------------------------------------------------------------------
+

@@ -1,0 +1,26 @@
+⭐ ALTER commands on a table
+🔯 do to inclute "" quotes
+
+👉Rename a Table
+command:
+alter table "tableName"
+rename to "new table name";
+-------------------------------------------------------
+
+👉 Add a column in a table
+command:
+alter table "tableName"
+add column "columnName" "dataType";
+-------------------------------------------------------
+
+👉 Remove a column in a table
+command:
+alter table "tableName"
+drop column "columnName";
+-------------------------------------------------------
+
+👉 Rename a column in a table
+command:
+alter table "tableName"
+rename column "old Name" to "New Name";
+-------------------------------------------------------

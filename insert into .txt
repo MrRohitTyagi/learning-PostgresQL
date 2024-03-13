@@ -1,0 +1,13 @@
+⭐ INSERT commands on a table
+🔯 do to inclute "" quotes
+
+👉 Insert data in a  table
+command:
+insert into "tableName"("column name 1","column name 2","column name 3") 
+                values (value for Col1,value for Col2,value for Col3)
+-------------------------------------------------------
+👉 Insert multiple data in a  table
+command:
+insert into "tableName"("column name 1","column name 2") 
+                values (value for Col1,value for Col2),(value for Col1,value for Col2),(value for Col1,value for Col2)
+-------------------------------------------------------

@@ -1,0 +1,7 @@
+⭐ DISTINCT query on a table
+
+👉 get only unique values of any column in a table
+command :
+select distinct "col name" from "Tablename"
+this will only show unique values of column from the table
+
